@@ -460,7 +460,7 @@ class BIMPM(BaseModel):
 
     def save(self, saver, session, directory):
         """
-        Save the autoencoder model and metadata to the specified
+        Save the BIMPM model and metadata to the specified
         directory.
         """
         super(BIMPM, self).save(saver, session, directory)
